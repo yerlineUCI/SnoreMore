@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SnoreMore</string>
+    <string name="action_settings">Set Goals</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Set_Your_Goals">Edit a Goal</string>
+    <string name="Results">Recommendations</string>
+    <string name="hello_first_fragment">SnoreMore</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Weight_Goal">What is your weight goal?</string>
+    <string name="Button_one">Gain Weight</string>
+    <string name="Button_two">Lose Weight</string>
+    <string name="Button_three">Maintain Current Weight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calendar_prompt">Please enter today date</string>
+    <string name="confirming_heading">Confirming Goal</string>
+    <string name="Information">Information</string>
+</resources>
