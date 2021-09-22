@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    //First Fragment
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.snoremore.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first" >
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+
+    //Second Fragment
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.snoremore.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second" >
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_thirdFragment2"
+            app:destination="@id/thirdFragment2" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragment2"
+        android:name="com.example.snoremore.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFragment2_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_thirdFragment2_to_maps_Fragment2"
+            app:destination="@id/maps_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/maps_Fragment"
+        android:name="com.example.snoremore.Maps_Fragment"
+        android:label="fragment_maps_"
+        tools:layout="@layout/fragment_maps_" >
+        <action
+            android:id="@+id/action_maps_Fragment_to_thirdFragment22"
+            app:destination="@id/thirdFragment2" />
+        <action
+            android:id="@+id/action_maps_Fragment_to_alarmFragment"
+            app:destination="@id/alarmFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/alarmFragment"
+        android:name="com.example.snoremore.AlarmFragment"
+        android:label="fragment_alarm"
+        tools:layout="@layout/fragment_alarm" >
+        <action
+            android:id="@+id/action_alarmFragment_to_maps_Fragment"
+            app:destination="@id/maps_Fragment" />
+    </fragment>
+
+
+</navigation>
