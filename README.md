@@ -74,4 +74,4 @@ Then we further filter results based on the user’s health goal. According to S
 
 ##### Recommendation Algorithm and Ranking System
 
-
+> Current UCI students, please do not copy our project as that is considered plagiarism.
