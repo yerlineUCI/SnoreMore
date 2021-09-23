@@ -1,6 +1,6 @@
 # SnoreMore
 > Snooremore is an intelligent sleep advisor that helps you schedule your sleep time based on your lifestyle, weight, diet, location, sleeping history, and exercise history.
-
+To see our app's functionality in action watch our video: https://drive.google.com/file/d/1HbGAR_a2PcX5G-A_JgE5Zc6BTEeYhWXB/view?usp=sharing
 
 ## Overview
 This is Group 12's project code for our SnoreMore app, which will recommend sleep times according to a user's weight goals.
